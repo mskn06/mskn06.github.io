@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        The Mastermind 
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Challenge!
+    </h1>
+
+    <div id="stripe">
+        <button id="resetBtn">More Colors</button>
+        <span id="message"></span>
+        <button class="modeBtn">Easy</button>
+        <button class="modeBtn" class="selected">Hard</button>
+    </div>
+    
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+<script src="main.js"></script>    
+</body>
+</html>
